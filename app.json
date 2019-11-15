@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/action/action",
+    "pages/signup/signup",
+    "pages/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#668",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "洪鸣教育",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/homeactive.png"
+      },
+      {
+        "pagePath": "pages/signup/signup",
+        "text": "我要报名",
+        "iconPath": "icon/bm.png",
+        "selectedIconPath": "icon/bmactive.png"
+      },
+      {
+        "pagePath": "pages/action/action",
+        "text": "活动",
+        "iconPath": "icon/action.png",
+        "selectedIconPath": "icon/actionactive.png"
+      }
+    ]
+  }
+}
